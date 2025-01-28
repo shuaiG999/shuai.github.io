@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to the Louvre</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background: linear-gradient(to right, #ff9a9e, #fad0c4);
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            h1 {
+                font-size: 3em;
+                color: #fff;
+                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+                margin-top: 20px;
+            }
+            .username {
+                font-size: 1.5em;
+                font-weight: bold;
+                color: #ff6f61;
+                animation: pulse 2s infinite;
+            }
+            p {
+                font-size: 1.2em;
+                color: #fff;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            }
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                margin: 20px auto;
+                border: 5px solid #fff;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: transform 0.3s ease;
+            }
+            img:hover {
+                transform: scale(1.2);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            }
+            @keyframes pulse {
+                0%, 100% {
+                    transform: scale(1);
+                    color: #ff6f61;
+                }
+                50% {
+                    transform: scale(1.1);
+                    color: #ffc1a1;
+                }
+            }
+            .button {
+                display: inline-block;
+                margin: 20px auto;
+                padding: 10px 20px;
+                font-size: 1.2em;
+                color: #fff;
+                background-color: #ff6f61;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+                transition: background-color 0.3s ease, transform 0.3s ease;
+            }
+            .button:hover {
+                background-color: #ff4b3e;
+                transform: translateY(-3px);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to the Louvre</h1>
+        <img src="C:\Users\pingp\Desktop\Web\image\卢浮宫.jpg" alt="An image of the Louvre">
+        <p class="username">@ WELCOME TO THE LOUVRE</p>
+        <p>There are plenty of good reasons to visit the Louvre!</p>
+        <a href="https://www.louvre.fr/en" class="button">Learn More</a>
+    </body>
+</html>
+
